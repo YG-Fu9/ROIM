@@ -71,6 +71,6 @@ run_roim_case('3D_heat')
 
 If you use this code or build upon it in your research, please cite:
 
-Fu, Yuguo, et al.  
+Fu, YG, et al.  
 **Reduced-Order Initialization Model for Accelerating Topology Optimization in Thermal-Fluid System**.  
 *Journal / Conference*, Year.
