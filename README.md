@@ -39,7 +39,7 @@ ROIM automatically detects the maximum loop index by scanning:
 
 ## Requirements
 
-- MATLAB (tested with `<your MATLAB version>`)
+- MATLAB (tested with Matlab R2023b)
 - No additional toolboxes are strictly required for the core workflow (SVD-based POD + linear algebra).
 
 ---
@@ -63,6 +63,14 @@ run_roim_case('2D_heat')
 run_roim_case('2D_multiinlet_flow')
 run_roim_case('3D_flow')
 run_roim_case('3D_heat')
+```
 
-Yuguo Fu, et al.
-Reduced-Order Initialization Model for Accelerating Topology Optimization in Thermal-Fluid System.
+---
+
+## Citation
+
+If you use this code or build upon it in your research, please cite:
+
+Fu, Yuguo, et al.  
+**Reduced-Order Initialization Model for Accelerating Topology Optimization in Thermal-Fluid System**.  
+*Journal / Conference*, Year.
