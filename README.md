@@ -27,8 +27,10 @@ The core prediction pipeline combines **Weighted Proper Orthogonal Decomposition
 ## Repository Structure
 
 ### Dataset
-The dataset used in this work is publicly available at:
-https://doi.org/xxxx/zenodo.xxxxx
+Due to file size limitations, only representative data from the first two outer-loop iterations of each case 
+are included in the GitHub repository. 
+The complete dataset covering all iterations is publicly available at Zenodo,
+https://doi.org/xxxx/zenodo.xxxxx.
 
 After downloading, extract the dataset and place it under: rootDir/ROIM/
 
