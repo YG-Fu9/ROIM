@@ -26,6 +26,12 @@ The core prediction pipeline combines **Weighted Proper Orthogonal Decomposition
 
 ## Repository Structure
 
+### Dataset
+The dataset used in this work is available at:
+https://doi.org/xxxx/zenodo.xxxxx
+Download and put it under rootDir\ROIM\
+---
+
 ### Data Format (per loop)
 Each case folder contains loop-wise text files:
 - `alpha_full_<loop>.txt` : friction coefficient used for **alpha → u,v,w,p** prediction in heat-transfer cases
