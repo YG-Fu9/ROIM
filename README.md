@@ -26,6 +26,8 @@ The core prediction pipeline combines **Weighted Proper Orthogonal Decomposition
 
 ## Repository Structure
 
+---
+
 ### Dataset
 The dataset used in this work is available at:
 https://doi.org/xxxx/zenodo.xxxxx
