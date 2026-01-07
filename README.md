@@ -28,9 +28,9 @@ The core prediction pipeline combines **Weighted Proper Orthogonal Decomposition
 
 ### Data Format (per loop)
 Each case folder contains loop-wise text files:
-- `alpha_full_<loop>.txt` : design field (e.g., SIMP density / penalization-related variable)
-- `uvpT_full_<loop>.txt`  : physical fields (coordinates + velocity/pressure/temperature)
-- `ks_full_<loop>.txt`    : (optional) thermal conductivity field used for **k → T** prediction in heat-transfer cases
+- `alpha_full_<loop>.txt` : friction coefficient used for **\alpha → u,v,w,p** prediction in heat-transfer cases
+- `ks_full_<loop>.txt`    : thermal conductivity used for **k → T** prediction in heat-transfer cases
+- `uvwpT_full_<loop>.txt`  : physical fields (coordinates + velocity/pressure/temperature)
 
 ROIM automatically detects the maximum loop index by scanning:
 - `alpha_full_*.txt`
