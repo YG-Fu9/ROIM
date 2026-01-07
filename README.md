@@ -28,7 +28,7 @@ The core prediction pipeline combines **Weighted Proper Orthogonal Decomposition
 
 ### Data Format (per loop)
 Each case folder contains loop-wise text files:
-- `alpha_full_<loop>.txt` : friction coefficient used for **\alpha → u,v,w,p** prediction in heat-transfer cases
+- `alpha_full_<loop>.txt` : friction coefficient used for **alpha → u,v,w,p** prediction in heat-transfer cases
 - `ks_full_<loop>.txt`    : thermal conductivity used for **k → T** prediction in heat-transfer cases
 - `uvwpT_full_<loop>.txt`  : physical fields (coordinates + velocity/pressure/temperature)
 
@@ -40,7 +40,7 @@ ROIM automatically detects the maximum loop index by scanning:
 ## Requirements
 
 - MATLAB (tested with Matlab R2023b)
-- No additional toolboxes are strictly required for the core workflow (SVD-based POD + linear algebra).
+- No additional toolboxes are strictly required for the core workflow (SVD-based WPOD + linear algebra).
 
 ---
 
