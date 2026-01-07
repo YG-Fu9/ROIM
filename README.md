@@ -57,7 +57,7 @@ ROIM automatically detects the maximum loop index by scanning:
 ## Quick Start
 
 ### 1) Prepare data
-Place your case data under:
+Place the downloaded case data under `root/ROIM/` as follows:
 - `ROIM/Data/2D_heat/`
 - `ROIM/Data/2D_multiinlet_flow/`
 - `ROIM/Data/3D_flow/`
