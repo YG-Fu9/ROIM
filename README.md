@@ -83,4 +83,3 @@ If you use this code or build upon it in your research, please cite:
 
 Fu, YG, et al.  
 **Reduced-Order Initialization Model for Accelerating Topology Optimization in Thermal-Fluid System**.  
-*Journal / Conference*, Year.
